@@ -16,7 +16,7 @@ const config = {
       'babel-polyfill',
       'react-hot-loader/patch',
       'webpack/hot/only-dev-server',
-      'webpack-dev-server/client?http://localhost:3000',
+      'webpack-dev-server/client?http://localhost:3015',
       './src/main.js',
     ] : [
       'babel-polyfill',
@@ -64,7 +64,7 @@ const config = {
   ],
   devServer: {
     host: '0.0.0.0',
-    port: 3005,
+    port: 3015,
     historyApiFallback: true,
     disableHostCheck: true,
     hot: true,

@@ -1,5 +1,5 @@
 import React from 'react';
-import CommentBox from './CommentBox';
+import Comment from './Comment';
 
 export default class SampleComponent extends React.Component {
   constructor(props) {
@@ -9,7 +9,7 @@ export default class SampleComponent extends React.Component {
   render() {
     return (
       <div>
-      <CommentBox />
+      <Comment />
       </div>
     );
   }
