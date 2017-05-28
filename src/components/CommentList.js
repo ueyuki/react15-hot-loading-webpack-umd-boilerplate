@@ -4,10 +4,10 @@ import Comment from './Comment'
 export default class CommentList extends React.Component {
   render() {
     return (
-        <div className="commentList">
-          <Comment author="Pate Hunt">This is one comment</Comment>
-          <Comment author="Jordan Walke">This is *another* comment</Comment>
-        </div>
+      <div className="commentList">
+        <Comment author="Pate Hunt">This is one comment</Comment>
+        <Comment author="Jordan Walke">This is *another* comment</Comment>
+      </div>
     )
   }
 }

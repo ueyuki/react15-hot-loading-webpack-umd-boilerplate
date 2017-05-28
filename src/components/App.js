@@ -9,7 +9,7 @@ export default class SampleComponent extends React.Component {
   render() {
     return (
       <div>
-      <CommentList />
+        <CommentList />
       </div>
     );
   }
