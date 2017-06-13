@@ -15,9 +15,9 @@ export default class SampleComponent extends React.Component {
     ]
 
     return (
-        <div>
+      <div>
         <CommentList data={data}/>
-        </div>
-        );
+      </div>
+    );
   }
 }

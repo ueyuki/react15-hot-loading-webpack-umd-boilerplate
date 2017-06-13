@@ -5,15 +5,15 @@ export default class CommentList extends React.Component {
   render() {
     const commentNodes = this.props.data.map(function (comment) {
       return (
-          <Comment author={comment.author} key={comment.id}>
+        <Comment author={comment.author} key={comment.id}>
           {comment.text}
-          </Comment>
-          )
+        </Comment>
+      )
     })
     return (
-        <div className="commentList">
+      <div className="commentList">
         {commentNodes}
-        </div>
-        )
+      </div>
+    )
   }
 }
